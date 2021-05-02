@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:background="#FFFFFF"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+    <ImageView
+        android:id="@+id/deck_img"
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:contentDescription="deck"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/gray_back" />
+    <TextView
+        android:id="@+id/deck_size"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/stake3_img"
+        android:layout_toRightOf="@id/deck_img"
+        android:text="deck_size" />
+    <ImageView
+        android:id="@+id/drawn_img"
+        android:layout_width="180dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/stake4_img"
+        android:contentDescription="deck"
+        />
+
+    <ImageView
+        android:id="@+id/stake1_img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+
+        android:layout_below="@id/deck_img"
+
+        android:contentDescription="stake"
+         />
+    <ImageView
+        android:id="@+id/stake2_img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/deck_img"
+        android:layout_alignLeft="@id/stake1_img"
+        android:contentDescription="stake"
+        />
+    <ImageView
+        android:id="@+id/stake3_img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/deck_img"
+        android:layout_marginLeft="40dp"
+        android:layout_alignLeft="@id/stake2_img"
+        android:contentDescription="stake"
+        />
+    <ImageView
+        android:id="@+id/stake4_img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+
+
+        android:layout_below="@id/stake1_img"
+        android:contentDescription="stake"
+        />
+    <ImageView
+        android:id="@+id/stake5_img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/stake2_img"
+        android:layout_marginLeft="40dp"
+        android:layout_alignLeft="@id/stake4_img"
+
+        android:contentDescription="stake"
+        />
+    <ImageView
+        android:id="@+id/stake6_img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/stake2_img"
+        android:layout_marginLeft="40dp"
+        android:layout_alignLeft="@id/stake5_img"
+        android:contentDescription="stake"
+        />
+
+
+    <Button
+        android:id="@+id/bigger"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/drawn_img"
+        android:text="bigger" />
+
+    <Button
+        android:id="@+id/smaller"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/drawn_img"
+        android:layout_toRightOf="@id/bigger"
+        android:layout_marginLeft="50dp"
+        android:text="smaller" />
+    <TextView
+        android:id="@+id/guess_prompt"
+
+
+        android:layout_width="2500dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/bigger"
+        android:background="#6ECEFA"
+
+        android:textSize="36sp"
+        android:text="starting game..." />
+
+
+    <TextView
+        android:id="@+id/stake_txt"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/drawn_img"
+
+        android:layout_toRightOf="@id/stake6_img"
+        android:text="stake" />
+
+    <TextView
+        android:id="@+id/face"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/smaller"
+        android:layout_toRightOf="@id/drawn_img"
+        android:text="face" />
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="2500dp"
+        android:layout_height="100dp"
+
+
+
+
+
+        android:layout_below="@id/bigger"
+        android:background="#6ECEFA"
+        android:text="Player"
+        android:textSize="36sp" />
+
+</RelativeLayout>
