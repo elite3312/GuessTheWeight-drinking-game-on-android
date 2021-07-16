@@ -1,6 +1,6 @@
 # GuessTheWeight<br>
  GuessTheWeight是一個適合喝酒時玩的遊戲。玩家人數4~6人，<br>
- 使用android studio開發，API LEVEL 30
+ 使用android studio開發，API LEVEL 30<br>
  遊戲規則:<br>
  遊戲一開始先從牌堆翻一張牌出來，接下來選一位朋友開始遊戲。<br>
  這位朋友必須猜牌堆上方的下一張牌比翻出來的牌大或小。<br>
