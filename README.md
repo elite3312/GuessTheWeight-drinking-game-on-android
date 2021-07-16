@@ -16,5 +16,6 @@
 
 <br>
 demo：<br>
-  <img src="demo.png">
+  <img src="demo1.png">
+  <img src="demo2.png">
 <br>
